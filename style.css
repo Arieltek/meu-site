@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body {
+    background-color:rgb(255, 255, 255) ;
+    text-align:justify;
+}
+header {
+    color: #92140c ;
+    font-size: 20px;
+}
+
+header>h1{
+   font-family: sans-serif; 
+
+   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+   font-size: 30px;
+   -webkit-text-stroke: 1px #fff;
+   margin: 0 auto;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   animation: anim 2s linear infinite;
+   text-align: center;
+   
+   
+}
+
+   
+    @keyframes anim{
+        to{
+            background-position-x: 320px;
+        }
+    }
+
+    main>h1{
+        margin: 0;
+        padding: 7px 5px 5px 7px;
+    }
+main{
+    color: #92140c;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+}
+    
+    
+
+
+\ * FBF5F3   0D0709  FFF30A  92140C * /
