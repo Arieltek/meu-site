@@ -6,7 +6,8 @@ body {
 }
 }
 header {
-    color: #92140c ;
+    padding:10px 5px 5px 10px;
+    color: #92140c;
     font-size: 10px;
 }
 
@@ -47,7 +48,7 @@ footer{
     text-align: center;
 }
     
-    
+ 
 
 
 \ * FBF5F3   0D0709  FFF30A  92140C * /
