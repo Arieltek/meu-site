@@ -30,6 +30,9 @@ header>h1{
             background-position-x: 320px;
         }
     }
+    main{
+        background-color: Black 
+    }
 
     main>h1{
         margin: 0;
