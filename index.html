@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amo-Te</title>
+<link rel="shortcut icon" href="favicon.ico" type="momo">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Meu amor.</strong>
+                        <p>
+                            Meu amor, Fortunado 1 ano de namoro meu amor, sei que não é sempre que estamos de bem, nem sempre que estamos alegres ou contentes, mas é pra isso que serve o nosso namoro, fico muito feliz com essa data, fiz um site porque foi desta forma que pedi você em namoro, estou ansioso que veja isso, quero muito viver pra sempre com meu amor, morar com meu momo e dormir juntinhos todas as noites, você que me faz sorrir todos os dias, deixa eu bem <abbr title="rsrs">animado</abbr> todos os dias, muito obrigado por cada presente e tudo que fez por min, você é a pessoa mais doce que avistei na vida, eu te amo muito bell eu, te amo demais sapinha. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        <button onclick="aperta()">Aperta aqui se você me ama</button>
+
+            function aperta(){
+            alert('Você me ama')
+            }
+    </script>
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click', () => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
