@@ -15,7 +15,7 @@
     box-sizing: border-box;
     background: var(--bg-color);
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
   }
   .container {
@@ -70,8 +70,7 @@
   .envelope > .letter > .text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--txt-color);
-    text-align: left;
-    font-size: 5px;
+    font-size: 15px;
   }
   .heart {
     position: absolute;
@@ -131,16 +130,14 @@ body>strong{
 }
 @keyframes anim{
     to{
-        background-position-x: 320px;
-    }
+      background-position-x: 320px;
+}
 }
     
     
    
 
-footer{
-    text-align: center;
-}
+
     
     
 
